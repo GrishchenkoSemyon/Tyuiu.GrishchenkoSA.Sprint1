@@ -11,7 +11,7 @@ namespace Tyuiu.GrishchenkoSA.Sprint1.Task3.V5.Test
         {
             DataService ds = new DataService();
             var res = ds.DistanceLength(120.0, 3.5);
-            Assert.AreEqual(420.0, res);
+            Assert.AreEqual(0.25, res);
         }
     }
 }

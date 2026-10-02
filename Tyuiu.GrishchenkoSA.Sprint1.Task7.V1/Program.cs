@@ -7,7 +7,6 @@ namespace Tyuiu.GrishchenkoSA.Sprint1.Task7.V1
     {
         static void Main(string[] args)
         {
-            DataService ds = new DataService();
             Console.Title = "Спринт #1 | Выполнил: Грищенко С. А. | ИСПб-26-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
@@ -21,15 +20,6 @@ namespace Tyuiu.GrishchenkoSA.Sprint1.Task7.V1
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            try
-            {
-                var result = ds.Calculate(2.0, 5.0, 1.0);
-                Console.WriteLine(result);
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("Ошибка: " + ex.Message);
-            }
         }
     }
 }
